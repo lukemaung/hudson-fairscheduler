@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fairscheduler
+[INFO]    task-segment: [clean, integration-test]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/lmaung/Projects/hudson/hudson_plugins/fairscheduler/target
+[INFO] [enforcer:display-info {execution: default}]
+[INFO] Maven Version: 2.2.0
+[INFO] JDK Version: 1.6.0_20 normalized as: 1.6.0-20
+[INFO] OS Info: Arch: x86_64 Family: mac Name: mac os x Version: 10.6.4
+[INFO] [localizer:generate {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] [hpi:apt-compile {execution: default-apt-compile}]
+[INFO] Compiling 5 source files to /Users/lmaung/Projects/hudson/hudson_plugins/fairscheduler/target/classes
+[INFO] [access-modifier-checker:enforce {execution: default-enforce}]
+[INFO] [hpi:insert-test {execution: default-insert-test}]
+[INFO] [groovy:generateTestStubs {execution: test-in-groovy}]
+[INFO]  No sources found for Java stub generation
+[INFO] [resources:testResources {execution: default-testResources}]
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/lmaung/Projects/hudson/hudson_plugins/fairscheduler/src/test/resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] Compiling 2 source files to /Users/lmaung/Projects/hudson/hudson_plugins/fairscheduler/target/test-classes
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Compilation failure
+/Users/lmaung/Projects/hudson/hudson_plugins/fairscheduler/target/inject-tests/InjectedTest.java:[9,-1] cannot access HashMap
+bad class file: ./java.util.HashMap.class
+class file contains wrong class: antlr.ANTLRStringBuffer
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9 seconds
+[INFO] Finished at: Mon Nov 29 16:09:28 PST 2010
+[INFO] Final Memory: 68M/123M
+[INFO] ------------------------------------------------------------------------

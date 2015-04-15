@@ -1,0 +1,3 @@
+<div>
+    This plugin schedules builds on nodes in a fair manner (as opposed to default node-affinity model). This is intended for use in a node-pool model (using labels). A simple SLA monitor is included. To set the SLA for a pool, set global variable poolmonitor.&lt;label-name&gt;sla to a value (in minutes)
+</div>
